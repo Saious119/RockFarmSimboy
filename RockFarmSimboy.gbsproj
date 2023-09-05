@@ -7005,7 +7005,7 @@
                     "animate": false,
                     "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
                     "direction": "down",
-                    "moveSpeed": 1,
+                    "moveSpeed": 4,
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
@@ -7266,7 +7266,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "inventory.png"
+            "filename": "inventory.png",
+            "tileColors": []
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -7309,7 +7310,8 @@
             "height": 22,
             "imageWidth": 160,
             "imageHeight": 176,
-            "filename": "shed.png"
+            "filename": "shed.png",
+            "tileColors": []
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -11101,8 +11103,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 49,
-        "worldScrollY": 131,
+        "worldScrollX": 527,
+        "worldScrollY": 0,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -11131,8 +11133,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            714,
-            205,
+            761,
+            218,
             30
         ],
         "showNavigator": true,

@@ -5037,7 +5037,7 @@
                 0,
                 15,
                 15,
-                0,
+                15,
                 15,
                 15,
                 0,
@@ -6663,7 +6663,7 @@
                 15,
                 15,
                 15,
-                15,
+                0,
                 15,
                 15,
                 15,
@@ -6996,8 +6996,8 @@
             "autoFadeSpeed": 1,
             "id": "b6ded31b-ae52-4167-a10b-3dd4ea49fe8c",
             "symbol": "scene_10",
-            "x": 565.6615384615372,
-            "y": 592.2461538461528,
+            "x": 567.2615384615372,
+            "y": 591.4461538461528,
             "actors": [
                 {
                     "name": "",
@@ -7156,16 +7156,16 @@
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "customEventId": "ac784fcf-79b3-4103-bd40-182c82143c28"
-                    },
-                    "id": "acdd3426-1e19-47e8-b1e0-05fedf263ac1"
-                },
-                {
-                    "command": "EVENT_CALL_CUSTOM_EVENT",
-                    "args": {
                         "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
                     },
                     "id": "f106d483-f033-47ef-80a9-56a8a77fd141"
+                },
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "c5694ca8-fd2d-4ad1-992b-bda57c565c2d"
                 },
                 {
                     "command": "EVENT_ACTOR_SHOW",
@@ -7173,6 +7173,39 @@
                         "actorId": "66e4e89e-6cee-4d4c-8cdf-675e5acee97b"
                     },
                     "id": "e56a7592-d188-4eb6-aa60-e59789920cdb"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SCENE_POP_STATE",
+                                "args": {
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "3b62ef02-c03f-4363-9e4d-17760bcb8be3"
+                            },
+                            {
+                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b",
+                                        "select"
+                                    ]
+                                },
+                                "id": "81f9bdf0-9e48-4b65-acd5-0f02402a51ef"
+                            }
+                        ]
+                    },
+                    "id": "00cbba46-2cbd-421e-aad0-1e6e38e733f0"
                 }
             ],
             "playerHit1Script": [],
@@ -10754,7 +10787,8 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Attach Menu",
-                        "__collapse": false
+                        "__collapse": false,
+                        "__comment": false
                     },
                     "children": {
                         "true": [
@@ -11068,7 +11102,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 49,
-        "worldScrollY": 0,
+        "worldScrollY": 131,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
