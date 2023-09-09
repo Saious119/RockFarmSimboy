@@ -4425,142 +4425,6 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "symbol": "actor_2",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Would you like to\nplant something?"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "79b2cb7e-1846-4439-aebe-c83c6a94563c"
-                        },
-                        {
-                            "command": "EVENT_CHOICE",
-                            "args": {
-                                "variable": "13",
-                                "trueText": "Yeah",
-                                "falseText": "Actually, Nah"
-                            },
-                            "id": "2a5ede1d-7bfd-4c8f-b900-b1f5e79019d6"
-                        },
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "13",
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_MENU",
-                                        "args": {
-                                            "variable": "L5",
-                                            "items": 8,
-                                            "option1": "",
-                                            "option2": "",
-                                            "option3": "",
-                                            "option4": "",
-                                            "option5": "",
-                                            "option6": "",
-                                            "option7": "",
-                                            "option8": "",
-                                            "cancelOnB": true,
-                                            "layout": "dialogue"
-                                        },
-                                        "id": "11d9c38b-bf08-485f-931a-cc8b3a712ab9"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        },
-                                        "id": "9aa2d891-b149-4472-896b-24533982ef5a"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "speed": 255
-                                        },
-                                        "id": "cfc6806a-a578-4b98-b0fb-98ee2135a5a8"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Okay."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "779faa79-4f2c-4163-9dce-9fb2d773770d"
-                                    }
-                                ]
-                            },
-                            "id": "776e7c9a-fd61-40b6-a1e5-28f5d6237ab2"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                            "args": {
-                                "actorId": "$self$",
-                                "speed": 255
-                            },
-                            "id": "384ec4a8-5885-4746-815b-ea6529ebfdd1"
-                        },
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "511",
-                                "__collapseElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        },
-                                        "id": "2a7e2dfa-95f3-4563-9eb1-79243678f00e"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "de09689e-e33e-4928-b97f-8c95a86328f4"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "25bf70e8-6da0-452e-94da-ddc7e7aef321",
-                    "x": 13,
-                    "y": 10
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "f900dd0d-c9bc-4ead-ae6b-eedd8ba92b99",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_3",
                     "script": [
@@ -5026,7 +4890,7 @@
                                     {
                                         "command": "EVENT_MENU",
                                         "args": {
-                                            "variable": "17",
+                                            "variable": "L0",
                                             "items": 8,
                                             "option1": "",
                                             "option2": "",
@@ -5704,6 +5568,150 @@
                     "id": "af168e17-7866-4e29-bd63-bd153d8b3711",
                     "x": 3,
                     "y": 16
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "f900dd0d-c9bc-4ead-ae6b-eedd8ba92b99",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_5",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Would you like to\nplant something?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "9edcdf40-c3b6-4d43-8dac-4d22d9520d34"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "13",
+                                "trueText": "Yeah",
+                                "falseText": "Actually, Nah"
+                            },
+                            "id": "11f5f78d-6bd6-48fb-9469-87ec89c602bd"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "13",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_MENU",
+                                        "args": {
+                                            "variable": "L5",
+                                            "items": 8,
+                                            "option1": "",
+                                            "option2": "",
+                                            "option3": "",
+                                            "option4": "",
+                                            "option5": "",
+                                            "option6": "",
+                                            "option7": "",
+                                            "option8": "",
+                                            "cancelOnB": true,
+                                            "layout": "dialogue"
+                                        },
+                                        "id": "a7f647cb-d982-49da-8cef-2ba398f4ee04"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 1
+                                            }
+                                        },
+                                        "id": "da507642-ca12-4aff-a3fd-693e5d47efac"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 255
+                                        },
+                                        "id": "b6a70274-46d1-47c7-807f-cacaf2c96556"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0"
+                                        },
+                                        "id": "a09c0800-3809-4ffd-b619-1fbfcfc0cdda"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Okay."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "29185d8f-5f78-4022-b007-70765ecdc1b6"
+                                    }
+                                ]
+                            },
+                            "id": "38650a04-fb82-4c84-b84e-ab8c9cb76c9c"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 255
+                            },
+                            "id": "ccdd7269-1f8d-4ccf-a51e-c78a99b53bcd"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "13",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 1
+                                            }
+                                        },
+                                        "id": "f53e11ff-e5e7-4bb6-8b24-24822fba2c9f"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "6b4fefa9-fa22-4e51-a85c-50e466471133"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "5582f569-afe8-42c9-b8a7-5878c2c19760",
+                    "x": 13,
+                    "y": 10
                 }
             ],
             "triggers": [
@@ -5805,14 +5813,16 @@
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+                        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9",
+                        "__comment": false
                     },
                     "id": "c2273eb4-afbf-469b-a62f-371f0e92b748"
                 },
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "customEventId": "ac784fcf-79b3-4103-bd40-182c82143c28"
+                        "customEventId": "ac784fcf-79b3-4103-bd40-182c82143c28",
+                        "__comment": false
                     },
                     "id": "b15639c3-faba-4ae2-ae29-31b60e45456f"
                 }
@@ -14329,8 +14339,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 377,
-        "worldScrollY": 293,
+        "worldScrollX": 24,
+        "worldScrollY": 139,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -14360,8 +14370,8 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             205,
-            804,
-            30
+            629,
+            205
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
