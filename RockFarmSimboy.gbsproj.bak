@@ -14304,11 +14304,6 @@
             "name": "PushedIceBlock"
         },
         {
-            "id": "13",
-            "name": "Variable 13",
-            "symbol": "var_variable_13"
-        },
-        {
             "id": "cb7d24c9-1ff2-4a5c-b044-0f0a31f95f03__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
@@ -14322,6 +14317,26 @@
             "id": "e12e6b23-b7d6-4ca8-8549-46bcbb96c31d__L1",
             "name": "Local 1",
             "symbol": "var_local_2"
+        },
+        {
+            "id": "13",
+            "name": "PantedSpot1",
+            "symbol": "var_pantedspot1"
+        },
+        {
+            "id": "14",
+            "name": "PlantedSpot2",
+            "symbol": "var_plantedspot2"
+        },
+        {
+            "id": "15",
+            "name": "PlantedSpot3",
+            "symbol": "var_plantedspot3"
+        },
+        {
+            "id": "16",
+            "name": "PlantedSpot4",
+            "symbol": "var_plantedspot4"
         }
     ],
     "engineFieldValues": [
@@ -14339,8 +14354,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 24,
-        "worldScrollY": 139,
+        "worldScrollX": 377,
+        "worldScrollY": 293,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,

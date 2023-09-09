@@ -14320,8 +14320,8 @@
         },
         {
             "id": "13",
-            "name": "PantedSpot1",
-            "symbol": "var_pantedspot1"
+            "name": "PlantedSpot1",
+            "symbol": "var_plantedspot1"
         },
         {
             "id": "14",
@@ -14337,6 +14337,31 @@
             "id": "16",
             "name": "PlantedSpot4",
             "symbol": "var_plantedspot4"
+        },
+        {
+            "id": "17",
+            "name": "PlantedSpot5",
+            "symbol": "var_plantedspot5"
+        },
+        {
+            "id": "18",
+            "name": "PlantedSpot6",
+            "symbol": "var_plantedspot6"
+        },
+        {
+            "id": "19",
+            "name": "PlantedSpot7",
+            "symbol": "var_plantedspot7"
+        },
+        {
+            "id": "20",
+            "name": "PlantedSpot8",
+            "symbol": "var_plantedspot8"
+        },
+        {
+            "id": "21",
+            "name": "PlantedSpot9",
+            "symbol": "var_plantedspot9"
         }
     ],
     "engineFieldValues": [
@@ -14354,8 +14379,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 377,
-        "worldScrollY": 293,
+        "worldScrollX": 415,
+        "worldScrollY": 144,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
