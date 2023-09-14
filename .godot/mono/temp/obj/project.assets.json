@@ -95,9 +95,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Code\\RockFarmSimboy\\RockFarmSim.csproj",
-      "projectName": "RockFarmSim",
-      "projectPath": "Z:\\Code\\RockFarmSimboy\\RockFarmSim.csproj",
+      "projectUniqueName": "Z:\\Code\\RockFarmSimboy\\RockFarmSimboy.csproj",
+      "projectName": "RockFarmSimboy",
+      "projectPath": "Z:\\Code\\RockFarmSimboy\\RockFarmSimboy.csproj",
       "packagesPath": "C:\\Users\\sht13\\.nuget\\packages\\",
       "outputPath": "Z:\\Code\\RockFarmSimboy\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,9 +1,2 @@
+res://Main.cs
 res://main.tscn
-res://main.cs
-res://mob.cs
-res://player.cs
-res://player.tscn
-res://mob.tscn
-res://HUD.tscn
-res://HUD.cs
-res://MessageTimer.cs
