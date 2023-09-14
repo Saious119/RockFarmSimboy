@@ -21,6 +21,3 @@ public partial class mob : RigidBody2D
 		QueueFree();
 	}
 }
-
-
-

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cc+pHGpRByT0FusNk3ZUQto9Fz9S8bqDO+V2EGIZptgH2CcKHlSkszSekBt7lXJT9uzAnJkURowrxl2hCC8OJA==",
+  "success": true,
+  "projectFilePath": "Z:\\Code\\RockFarmSimboy\\RockFarmSim.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sht13\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\sht13\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\sht13\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

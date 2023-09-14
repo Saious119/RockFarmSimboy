@@ -48,5 +48,4 @@ animation = &"walk"
 shape = SubResource("CapsuleShape2D_pxlkh")
 
 [connection signal="Hit" from="." to="." method="_on_hit"]
-[connection signal="Hit" from="." to="." method="GameOver"]
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]
